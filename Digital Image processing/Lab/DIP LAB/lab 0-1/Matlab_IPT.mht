@@ -1,0 +1,1753 @@
+From: =?gb2312?B?0tHTySBXaW5kb3dzIEludGVybmV0IEV4cGxvcmVyIDEwILGjtOY=?=
+Subject: Matlab
+Date: Sun, 20 Oct 2013 14:33:28 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CECDA1.577D6EF0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CECDA1.577D6EF0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/matlabip.htm
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><META content=3D"IE=3D5.0000" =
+http-equiv=3D"X-UA-Compatible">
+
+<META http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dwindows-1252">=20
+<TITLE>Matlab</TITLE>=20
+<META name=3D"GENERATOR" content=3D"MSHTML 10.00.9200.16721">=20
+<META name=3D"ProgId" content=3D"FrontPage.Editor.Document">=20
+<META name=3D"Microsoft Theme" content=3D"none, default">=20
+<META name=3D"Microsoft Border" content=3D"none, default"> </HEAD>=20
+<BODY>
+<H1>&nbsp;</H1>
+<H1><FONT color=3D"#ff0000">MATLAB Image Processing Toolbox</FONT></H1>
+<P>Copyright: Mathworks 1998.</P>
+<P>The following is taken from the Matlab Image Processing Toolbox users =
+guide.=20
+A complete online manual is availabe in the PDF form (about 5MB). Click =
+<A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/image=
+s_tb.pdf">here</A>=20
+to open the PDF manual. You should also be able to access this manual =
+on-line=20
+from within Matlab on your desktop. I will only summarize some of the =
+more=20
+relevant information in the following. </P>
+<P><A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/matla=
+bip.htm#What is the Image Processing Toolbox?"><FONT=20
+color=3D"#0000ff" face=3D"Arial" size=3D"3">What is the =
+IPToolbox?</FONT></A></P>
+<BLOCKQUOTE>
+  <P><A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/matla=
+bip.htm#Images in MATLAB and the Image Processing Toolbox"><FONT=20
+  color=3D"#0000ff" face=3D"Arial" size=3D"2">Images in =
+MATLAB</FONT></A></P>
+  <P><A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/matla=
+bip.htm#Data Types"><FONT=20
+  color=3D"#0000ff" face=3D"Arial" size=3D"2">Data    =
+Types</FONT></A></P>
+  <UL>
+    <LI><A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/matla=
+bip.htm#Indexed Images"><FONT=20
+    color=3D"#0000ff" face=3D"Arial" size=3D"2">Indexed           =20
+    images</FONT></A></LI>
+    <LI><A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/matla=
+bip.htm#Intensity Images"><FONT=20
+    color=3D"#0000ff" face=3D"Arial" size=3D"2">Intensity =
+images</FONT></A></LI>
+    <LI><A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/matla=
+bip.htm#Binary Images"><FONT=20
+    color=3D"#0000ff" face=3D"Arial" size=3D"2">Binary           =20
+    images</FONT></A></LI>
+    <LI><A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/matla=
+bip.htm#RGB Images"><FONT=20
+    color=3D"#0000ff" face=3D"Arial" size=3D"2">RGB           =20
+  images</FONT></A></LI></UL></BLOCKQUOTE>
+<P><A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/matla=
+bip.htm#Working with Image Data"><FONT=20
+color=3D"#0000ff" face=3D"Arial" size=3D"3">Working with Image =
+Data</FONT></A></P>
+<BLOCKQUOTE>
+  <P><A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/matla=
+bip.htm#Reading and Writing Images"><FONT=20
+  color=3D"#0000ff" face=3D"Arial" size=3D"2">Reading and Writing=20
+Images</FONT></A></P>
+  <P><A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/matla=
+bip.htm#Converting Images to Other Types"><FONT=20
+  color=3D"#0000ff" face=3D"Arial" size=3D"2">Converting Images to Other =
+
+  Types</FONT></A></P>
+  <P><A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/matla=
+bip.htm#Color Space Conversions"><FONT=20
+  color=3D"#0000ff" face=3D"Arial" size=3D"2">Color Space=20
+Conversions</FONT></A></P></BLOCKQUOTE>
+<P><A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/matla=
+bip.htm#Coordinate Systems"><FONT=20
+color=3D"#0000ff" face=3D"Arial" size=3D"3">Coordinate =
+Systems</FONT></A></P>
+<BLOCKQUOTE>
+  <P><A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/matla=
+bip.htm#Pixel Coordinates"><FONT=20
+  color=3D"#0000ff" face=3D"Arial" size=3D"2">Pixel   =20
+Coordinates</FONT></A></P></BLOCKQUOTE>
+<BLOCKQUOTE>
+  <P><A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/matla=
+bip.htm#Spatial Coordinates"><FONT=20
+  color=3D"#0000ff" face=3D"Arial" size=3D"2">Spatial   =20
+Coordinates</FONT></A></P></BLOCKQUOTE>
+<P><A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/matdi=
+splay.htm"><FONT=20
+color=3D"#0000ff" face=3D"Arial" size=3D"3">Displaying Images in =
+Matlab</FONT></A></P>
+<P><A =
+href=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/color=
+.htm"><FONT=20
+color=3D"#0000ff" face=3D"Arial" size=3D"3">Working with Color: Color=20
+spaces</FONT></A></P>
+<P><A name=3D"What is the Image Processing Toolbox?"><FONT =
+face=3D"Arial"=20
+size=3D"5">What is the Image Processing Toolbox?</FONT></A></P>
+<P><FONT face=3D"Arial" size=3D"2">The Image Processing Toolbox is a =
+collection of=20
+functions that extend the capability of the MATLAB </FONT><FONT =
+face=3D"Arial"=20
+size=3D"1">=AE </FONT><FONT face=3D"Arial" size=3D"2">numeric computing =
+environment. The=20
+toolbox supports a wide range of image processing operations,=20
+including:</FONT></P>
+<UL>
+  <LI><FONT face=3D"Arial" size=3D"2">Geometric operations</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">Neighborhood and block       =20
+  operations</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">Linear filtering and filter        =
+
+  design</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">Transforms</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">Image analysis and       =20
+  enhancement</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">Binary image =
+operations</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">Region of interest =
+operations</FONT></LI></UL>
+<P><FONT face=3D"Arial" size=3D"2">Many of the toolbox functions are =
+MATLAB M-files,=20
+series of MATLAB statements that implement specialized image processing=20
+algorithms. You can view the MATLAB code for these functions using the=20
+statement:</FONT></P>
+<P><FONT face=3D"Arial" size=3D"1">type function_name</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">You can extend the capabilities of =
+the Image=20
+Processing Toolbox by writing your own M-files, or by using the toolbox =
+in=20
+combination with with other toolboxes, such as the Signal Processing =
+Toolbox and=20
+the Wavelet Toolbox.</FONT></P>
+<P><A name=3D"Images in MATLAB and the Image Processing Toolbox"><FONT =
+face=3D"Arial"=20
+size=3D"5">Images in MATLAB and the Image Processing =
+Toolbox</FONT></A></P>
+<P><FONT face=3D"Arial" size=3D"2">The basic data structure in MATLAB is =
+the array,=20
+an ordered set of real or complex elements. This object is naturally =
+suited to=20
+the representation of images, real-valued, ordered sets of color or =
+intensity=20
+data. (MATLAB does not support complex-valued images.)</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">MATLAB stores most images as =
+two-dimensional=20
+arrays (i.e., matrices), in which each element of the matrix corresponds =
+to a=20
+single pixel in the displayed image. (Pixel is derived from picture =
+element and=20
+usually denotes a single dot on a computer display.) For example, an =
+image=20
+composed of 200 rows and 300 columns of different colored dots would be =
+stored=20
+in MATLAB as a 200-by-300 matrix.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">This convention makes working with =
+images in=20
+MATLAB similar to working with any other type of matrix data, and makes =
+the full=20
+power of MATLAB available for image processing applications. For =
+example, you=20
+can select a single pixel from an image matrix using normal matrix=20
+subscripting:</FONT></P>
+<P><FONT face=3D"Arial" size=3D"1">I(2,15)</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">This command returns the value of the =
+pixel at=20
+row 2, column 15 of the image </FONT><FONT face=3D"Arial" =
+size=3D"1">I</FONT><FONT=20
+face=3D"Arial" size=3D"2">.</FONT></P>
+<P><A name=3D"Data Types"><FONT face=3D"Arial" size=3D"4">Data =
+Types</FONT></A></P>
+<P><FONT face=3D"Arial" size=3D"2">By default, MATLAB stores most data =
+in arrays of=20
+class </FONT><FONT face=3D"Arial" size=3D"1">double</FONT><FONT =
+face=3D"Arial" size=3D"2">.=20
+The data in these arrays is stored as double precision (64-bit) =
+floating-point=20
+numbers. All of MATLAB=92s functions and capabilities work with these =
+arrays. For=20
+image processing, however, this data representation is not always=20
+ideal.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">The number of pixels in an image may =
+be very=20
+large; for example, a 1000-by-1000 image has a million pixels. Since =
+each pixel=20
+is represented by at least one array element, this image would require =
+about 8=20
+megabytes of memory.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">In order to reduce memory =
+requirements, MATLAB=20
+supports storing image data in arrays of class </FONT><FONT =
+face=3D"Arial" size=3D"1">uint8</FONT><FONT=20
+face=3D"Arial" size=3D"2">. The data in these arrays is stored as 8-bit =
+unsigned=20
+integers. Data stored in </FONT><FONT face=3D"Arial" size=3D"1">uint8 =
+</FONT><FONT=20
+face=3D"Arial" size=3D"2">arrays requires one eighth as much memory as =
+data in=20
+</FONT><FONT face=3D"Arial" size=3D"1">double </FONT><FONT =
+face=3D"Arial"=20
+size=3D"2">arrays.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">Because the types of values that can =
+be stored in=20
+</FONT><FONT face=3D"Arial" size=3D"1">uint8 </FONT><FONT face=3D"Arial" =
+
+size=3D"2">arrays and </FONT><FONT face=3D"Arial" size=3D"1">double =
+</FONT><FONT face=3D"Arial"=20
+size=3D"2">arrays differ, the Image Processing Toolbox uses different =
+conventions
+ for interpreting the values in these arrays. (Noninteger values cannot =
+be=20
+stored in </FONT><FONT face=3D"Arial" size=3D"1">uint8 </FONT><FONT =
+face=3D"Arial"=20
+size=3D"2">arrays, for example, but they can be stored in </FONT><FONT =
+face=3D"Arial"=20
+size=3D"1">double </FONT><FONT face=3D"Arial" size=3D"2">arrays.) The =
+next section=20
+discusses how the toolbox interprets image data, depending on the class =
+of the=20
+data array.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">In addition to differences in the =
+types of data=20
+values they store, </FONT><FONT face=3D"Arial" size=3D"1">uint8 =
+</FONT><FONT face=3D"Arial"=20
+size=3D"2">arrays and </FONT><FONT face=3D"Arial" size=3D"1">double =
+</FONT><FONT face=3D"Arial"=20
+size=3D"2">arrays differ in the operations that MATLAB supports. See =
+page 1-13 for
+ information about the operations MATLAB supports for </FONT><FONT =
+face=3D"Arial"=20
+size=3D"1">uint8 </FONT><FONT face=3D"Arial" =
+size=3D"2">arrays.</FONT></P>
+<P><A name=3D"Image Types in the Toolbox"><FONT face=3D"Arial" =
+size=3D"5">Image Types=20
+in the Toolbox</FONT></A></P>
+<P><FONT face=3D"Arial" size=3D"2">The Image Processing Toolbox supports =
+four basic=20
+types of images:</FONT></P>
+<UL>
+  <LI><FONT face=3D"Arial" size=3D"2">Indexed images</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">Intensity images</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">Binary images</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">RGB images</FONT></LI></UL>
+<P><FONT face=3D"Arial" size=3D"2">This section discusses how MATLAB and =
+the Image=20
+Processing Toolbox represent each of these image types.</FONT></P>
+<P><A name=3D"Indexed Images"><FONT face=3D"Arial" size=3D"4">Indexed
+ Images</FONT></A></P>
+<P><FONT face=3D"Arial" size=3D"2">An indexed image consists of two =
+arrays, an image=20
+matrix and a colormap. The colormap is an ordered set of values that =
+represent=20
+the colors in the image. For each image pixel, the image matrix contains =
+a value=20
+that is an index into the colormap.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">The colormap is an </FONT><FONT =
+face=3D"Arial"=20
+size=3D"1">m</FONT><FONT face=3D"Arial" size=3D"2">-by-3 matrix of class =
+</FONT><FONT=20
+face=3D"Arial" size=3D"1">double</FONT><FONT face=3D"Arial" size=3D"2">. =
+Each row of the=20
+colormap matrix specifies the red, green, and blue (RGB) values for a =
+single=20
+color: </FONT></P>
+<P><FONT face=3D"Arial" size=3D"1">color =3D [R G B] </FONT></P>
+<P><FONT face=3D"Arial" size=3D"1">R</FONT><FONT face=3D"Arial" =
+size=3D"2">,=20
+</FONT><FONT face=3D"Arial" size=3D"1">G</FONT><FONT face=3D"Arial" =
+size=3D"2">, and=20
+</FONT><FONT face=3D"Arial" size=3D"1">B </FONT><FONT face=3D"Arial" =
+size=3D"2">are real=20
+scalars that range from 0 (black) to 1.0 (full intensity).</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">The figure below illustrates the =
+structure of an=20
+indexed image. </FONT></P>
+<P align=3D"center"><IMG width=3D"394" height=3D"224" =
+src=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/images=
+/matlab2.jpg"=20
+border=3D"0"></P>
+<P><FONT face=3D"Arial" size=3D"2">The pixels in the image are =
+represented by=20
+integers, which are pointers (indices) to color values stored in the =
+colormap.=20
+The relationship between the values in the image matrix and the colormap =
+depends=20
+on whether the image matrix is of class </FONT><FONT face=3D"Arial"=20
+size=3D"1">double </FONT><FONT face=3D"Arial" size=3D"2">or </FONT><FONT =
+face=3D"Arial"=20
+size=3D"1">uint8</FONT><FONT face=3D"Arial" size=3D"2">. If the image =
+matrix is of=20
+class </FONT><FONT face=3D"Arial" size=3D"1">double</FONT><FONT =
+face=3D"Arial" size=3D"2">,=20
+the value 1 points to the first row in the colormap, the value 2 points =
+to the=20
+second row, and so on. If the image matrix is of class </FONT><FONT =
+face=3D"Arial"=20
+size=3D"1">uint8</FONT><FONT face=3D"Arial" size=3D"2">, there is an =
+offset; the value=20
+0 points to the first row in the colormap, the value 1 points to the =
+second row,=20
+and so on. The </FONT><FONT face=3D"Arial" size=3D"1">uint8 </FONT><FONT =
+face=3D"Arial"=20
+size=3D"2">convention is also used in graphics file formats, and enables =
+8-bit=20
+indexed images to support up to 256 colors. In the image above, the =
+image matrix=20
+is of class </FONT><FONT face=3D"Arial" size=3D"1">double</FONT><FONT =
+face=3D"Arial"=20
+size=3D"2">, so there is no offset. For example, the value 5 points to =
+the fifth=20
+row of the colormap.</FONT></P>
+<P><A name=3D"Intensity Images"><FONT face=3D"Arial" =
+size=3D"4">Intensity
+ Images</FONT></A></P>
+<P><FONT face=3D"Arial" size=3D"2">MATLAB stores an intensity image as a =
+single=20
+matrix, with each element of the matrix corresponding to one image =
+pixel. The=20
+matrix can be of class </FONT><FONT face=3D"Arial" =
+size=3D"1">double</FONT><FONT=20
+face=3D"Arial" size=3D"2">, in which case it contains values in the =
+range [0,1], or=20
+of class </FONT><FONT face=3D"Arial" size=3D"1">uint8</FONT><FONT =
+face=3D"Arial" size=3D"2">,
+ in which case the data range is [0,255]. The elements in the intensity =
+matrix=20
+represent various intensities, or gray levels, where the intensity 0 =
+represents=20
+black and the intensity 1 (or 255) represents full intensity, or=20
+white.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">This figure depicts an intensity =
+image of class=20
+</FONT><FONT face=3D"Arial" size=3D"1">double</FONT><FONT face=3D"Arial" =
+
+size=3D"2">.</FONT></P>
+<P align=3D"center"><IMG width=3D"286" height=3D"217" =
+src=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/images=
+/matlab3.jpg"></P>
+<P align=3D"left">&nbsp;</P>
+<P><A name=3D"Binary Images"><FONT face=3D"Arial" size=3D"4">Binary
+ Images</FONT></A></P>
+<P><FONT face=3D"Arial" size=3D"2">In a binary image, each pixel assumes =
+one of only=20
+two discrete values. Essentially, these two values correspond to =
+</FONT><FONT=20
+face=3D"Arial" size=3D"1">on </FONT><FONT face=3D"Arial" size=3D"2">and =
+</FONT><FONT=20
+face=3D"Arial" size=3D"1">off</FONT><FONT face=3D"Arial" size=3D"2">. A =
+binary image is=20
+stored as a two-dimensional matrix of 0=92s (</FONT><FONT face=3D"Arial" =
+
+size=3D"1">off </FONT><FONT face=3D"Arial" size=3D"2">pixels) and 1=92s =
+(</FONT><FONT=20
+face=3D"Arial" size=3D"1">on </FONT><FONT face=3D"Arial" =
+size=3D"2">pixels). </FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">A binary image can be considered a =
+special kind=20
+of intensity image, containing only black and white. Other =
+interpretations are=20
+possible, however; you can also think of a binary image as an indexed =
+image with=20
+only two colors.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">A binary image can be stored in an =
+array of class=20
+</FONT><FONT face=3D"Arial" size=3D"1">double </FONT><FONT =
+face=3D"Arial" size=3D"2">or=20
+</FONT><FONT face=3D"Arial" size=3D"1">uint8</FONT><FONT face=3D"Arial" =
+size=3D"2">.=20
+However, a </FONT><FONT face=3D"Arial" size=3D"1">uint8 </FONT><FONT =
+face=3D"Arial"=20
+size=3D"2">array is preferable, because it uses far less memory. In the =
+Image
+ Processing Toolbox, any function that returns a binary image returns it =
+as a=20
+</FONT><FONT face=3D"Arial" size=3D"1">uint8 </FONT><FONT face=3D"Arial" =
+
+size=3D"2">logical array. The toolbox uses the presence of the logical =
+flag to=20
+signify that the data range is [0,1]. (If the logical flag is off, the =
+toolbox=20
+assumes the data range is [0,255].)</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">This figure shows an example of a =
+binary=20
+image.</FONT></P>
+<P align=3D"center"><IMG width=3D"314" height=3D"146" =
+src=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/images=
+/matlab4.jpg"></P>
+<P align=3D"left">&nbsp;</P>
+<P><A name=3D"RGB Images"><FONT face=3D"Arial" size=3D"4">RGB =
+Images</FONT></A></P>
+<P><FONT face=3D"Arial" size=3D"2">Like an indexed image, an RGB image =
+represents=20
+each pixel color as a set of three values, representing the red, green, =
+and blue=20
+intensities that make up the color. Unlike an indexed image, however, =
+these=20
+intensity values are stored directly in the image array, not indirectly =
+in a=20
+colormap.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">In MATLAB, the red, green, and blue =
+components of=20
+an RGB image reside in a single </FONT><FONT face=3D"Arial" =
+size=3D"1">m</FONT><FONT=20
+face=3D"Arial" size=3D"2">-by-</FONT><FONT face=3D"Arial" =
+size=3D"1">n</FONT><FONT face=3D"Arial"=20
+size=3D"2">-by-3 array. </FONT><FONT face=3D"Arial" size=3D"1">m =
+</FONT><FONT face=3D"Arial"=20
+size=3D"2">and </FONT><FONT face=3D"Arial" size=3D"1">n </FONT><FONT =
+face=3D"Arial"=20
+size=3D"2">are the numbers of rows and columns of pixels in the image, =
+and the=20
+third dimension consists of three planes, containing red, green, and =
+blue=20
+intensity values. For each pixel in the image, the red, green, and blue =
+elements
+ combine to create the pixel=92s actual color.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">For example, to determine the color =
+of the pixel=20
+(112,86), look at the RGB triplet stored in (112,86,1:3). Suppose =
+(112,86,1)=20
+contains the value 0.1238, (112,86,2) contains 0.9874, and (112,86,3) =
+contains=20
+0.2543. The color for the pixel at (112,86) is:</FONT></P>
+<P><FONT face=3D"Arial" size=3D"1">0.1238 0.9874 0.2543</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">An RGB array can be of class =
+</FONT><FONT face=3D"Arial"=20
+size=3D"1">double</FONT><FONT face=3D"Arial" size=3D"2">, in which case =
+it contains=20
+values in the range [0,1], or of class </FONT><FONT face=3D"Arial"=20
+size=3D"1">uint8</FONT><FONT face=3D"Arial" size=3D"2">, in which case =
+the data range=20
+is [0,255]. The figure below shows an RGB image of class </FONT><FONT =
+face=3D"Arial"=20
+size=3D"1">double</FONT><FONT face=3D"Arial" size=3D"2">:</FONT></P>
+<P align=3D"center"><IMG width=3D"295" height=3D"273" =
+src=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/images=
+/matlab5.jpg"></P>
+<P><A name=3D"Working with Image Data"><FONT face=3D"Arial" =
+size=3D"5">Working with=20
+Image Data</FONT></A></P>
+<P><FONT face=3D"Arial" size=3D"2">This section discusses ways of =
+working with the=20
+data arrays that represent images, including:</FONT></P>
+<UL>
+  <LI><FONT face=3D"Arial" size=3D"2">Reading in image data from        =
+files, and=20
+  writing image data out to files</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">Converting images to other        =
+image=20
+  types</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">Working with </FONT><FONT =
+face=3D"Arial" size=3D"1">uint8=20
+  </FONT><FONT face=3D"Arial" size=3D"2">arrays in MATLAB and the Image =
+Processing  =20
+       Toolbox</FONT></LI></UL>
+<P><A name=3D"Reading and Writing Images"><FONT face=3D"Arial" =
+size=3D"4">Reading and=20
+Writing Images</FONT></A></P>
+<P><FONT face=3D"Arial" size=3D"2">You can use the MATLAB </FONT><FONT =
+face=3D"Arial"=20
+size=3D"1">imread </FONT><FONT face=3D"Arial" size=3D"2">function to =
+read image data=20
+from files. </FONT><FONT face=3D"Arial" size=3D"1">imread </FONT><FONT =
+face=3D"Arial"=20
+size=3D"2">can read these graphics file formats:</FONT></P>
+<UL>
+  <LI><FONT face=3D"Arial" size=3D"2">BMP</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">HDF</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">JPEG</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">PCX</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">TIFF</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">XWD</FONT></LI></UL>
+<P><FONT face=3D"Arial" size=3D"2">To write image data from MATLAB to a =
+file, use=20
+the </FONT><FONT face=3D"Arial" size=3D"1">imwrite </FONT><FONT =
+face=3D"Arial" size=3D"2">function.=20
+</FONT><FONT face=3D"Arial" size=3D"1">imwrite </FONT><FONT =
+face=3D"Arial"=20
+size=3D"2">can write the same file formats that </FONT><FONT =
+face=3D"Arial"=20
+size=3D"1">imread </FONT><FONT face=3D"Arial" =
+size=3D"2">reads.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">In addition, you can use the =
+</FONT><FONT face=3D"Arial"=20
+size=3D"1">imfinfo </FONT><FONT face=3D"Arial" size=3D"2">function to =
+return=20
+information about the image data in a file.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">See the reference entries for =
+</FONT><FONT face=3D"Arial"=20
+size=3D"1">imread</FONT><FONT face=3D"Arial" size=3D"2">, </FONT><FONT =
+face=3D"Arial"=20
+size=3D"1">imwrite</FONT><FONT face=3D"Arial" size=3D"2">, and =
+</FONT><FONT face=3D"Arial"=20
+size=3D"1">imfinfo</FONT><FONT face=3D"Arial" size=3D"2"> for more =
+information about=20
+these functions.</FONT></P>
+<P><A name=3D"Converting Images to Other Types"><FONT face=3D"Arial"=20
+size=3D"4">Converting Images to Other Types</FONT></A></P>
+<P><FONT face=3D"Arial" size=3D"2">For certain operations, it is helpful =
+to convert=20
+an image to a different image type. For example, if you want to filter a =
+color=20
+image that is stored as an indexed image, you should first convert it to =
+RGB=20
+format. When you apply the filter to the RGB image, MATLAB filters the =
+intensity=20
+values in the image, as is appropriate. If you attempt to filter the =
+indexed=20
+image, MATLAB simply applies the filter to the indices in the indexed =
+image=20
+matrix, and the results may not be meaningful.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">The Image Processing Toolbox provides =
+several=20
+functions that enable you to convert any image to another image type. =
+These=20
+functions have mnemonic names; for example, </FONT><FONT face=3D"Arial"=20
+size=3D"1">ind2gray </FONT><FONT face=3D"Arial" size=3D"2">converts an =
+indexed image=20
+to a grayscale intensity format.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">Note that when you convert an image =
+from one=20
+format to another, the resulting image may look different from the =
+original. For=20
+example, if you convert a color indexed image to an intensity image, the =
+
+resulting image is grayscale, not color. </FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">The table below summarizes these =
+image conversion=20
+functions:</FONT></P>
+<P>&nbsp;</P>
+<HR>
+
+<DIV align=3D"center">
+<CENTER>
+<TABLE border=3D"0" cellspacing=3D"10" cellpadding=3D"5">
+  <TBODY>
+  <TR>
+    <TH align=3D"left" valign=3D"top">
+      <P align=3D"center"><FONT face=3D"Arial" size=3D"1">Function =
+</FONT></P></TH>
+    <TD>
+      <P align=3D"center"><FONT face=3D"Arial"=20
+      size=3D"1"><STRONG>Purpose</STRONG></FONT></P></TD></TR>
+  <TR>
+    <TD><FONT face=3D"Arial" size=3D"1">dither</FONT></TD>
+    <TD><FONT face=3D"Arial" size=3D"2">Create a binary image        =
+from a=20
+      grayscale intensity image by dithering; create an        indexed =
+image=20
+      from an RGB image by dithering</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=3D"Arial" size=3D"1">gray2ind </FONT></TD>
+    <TD><FONT face=3D"Arial" size=3D"2">Create an indexed image        =
+from a=20
+      grayscale intensity image</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=3D"Arial" size=3D"1">grayslice </FONT></TD>
+    <TD><FONT face=3D"Arial" size=3D"2">Create an indexed image        =
+from a=20
+      grayscale intensity image by thresholding</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=3D"Arial" size=3D"1">im2bw</FONT></TD>
+    <TD><FONT face=3D"Arial" size=3D"2">Create a binary image        =
+from an=20
+      intensity image, indexed image, or RGB image,        based on a =
+luminance=20
+      threshold</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=3D"Arial" size=3D"1">ind2gray</FONT></TD>
+    <TD>C<FONT face=3D"Arial" size=3D"2">reate a grayscale        =
+intensity image=20
+      from an indexed image</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=3D"Arial" size=3D"1">ind2rgb</FONT></TD>
+    <TD><FONT face=3D"Arial" size=3D"2">Create an RGB image from        =
+an indexed=20
+      image</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=3D"Arial" size=3D"1">mat2gray</FONT></TD>
+    <TD><FONT face=3D"Arial" size=3D"2">Create a grayscale        =
+intensity image=20
+      from data in a matrix, by scaling the        data</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=3D"Arial" size=3D"1">rgb2gray</FONT></TD>
+    <TD><FONT face=3D"Arial" size=3D"2">Create a grayscale        =
+intensity image=20
+      from an RGB image</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=3D"Arial" size=3D"1">rgb2ind</FONT></TD>
+    <TD><FONT face=3D"Arial" size=3D"2">Create an indexed image        =
+from an RGB=20
+      image</FONT></TD></TR>
+  <TR>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR></TBODY></TABLE></CENTER></DIV>
+<P>&nbsp;</P>
+<HR>
+
+<P>&nbsp;</P>
+<P><A name=3D"Color Space Conversions"><FONT face=3D"Arial" =
+size=3D"4">Color Space=20
+Conversions</FONT></A></P>
+<P><FONT face=3D"Arial" size=3D"2">The Image Processing Toolbox =
+represents colors as=20
+RGB values, either directly (in an RGB image) or indirectly (in an =
+indexed=20
+image). However, there are other methods for representing colors. For =
+example, a=20
+color can be represented by its hue, saturation, and value components =
+(HSV).=20
+Different methods for representing colors are called color spaces. The =
+toolbox=20
+provides a set of routines for converting between RGB and other color =
+spaces.=20
+The image processing functions themselves assume all color data is RGB, =
+but you=20
+can process an image that uses a different color space by first =
+converting it to=20
+RGB, and then converting the processed image back to the original color=20
+space.</FONT></P>
+<P><A name=3D"Coordinate Systems"><FONT face=3D"Arial" =
+size=3D"5">Coordinate
+ Systems</FONT></A></P>
+<P><FONT face=3D"Arial" size=3D"2">Locations in an image can be =
+expressed in various=20
+coordinate systems, depending on context. This section discusses the two =
+main=20
+coordinate systems used in the Image Processing Toolbox, and the =
+relationship=20
+between them. These systems are:</FONT></P>
+<UL>
+  <LI><FONT face=3D"Arial" size=3D"2">The pixel coordinate =
+system</FONT></LI>
+  <LI><FONT face=3D"Arial" size=3D"2">The spatial coordinate =
+system</FONT></LI></UL>
+<P><A name=3D"Pixel Coordinates"><FONT face=3D"Arial" size=3D"4">Pixel
+ Coordinates</FONT></A></P>
+<P><FONT face=3D"Arial" size=3D"2">Generally, the most convenient method =
+for=20
+expressing locations in an image is to use pixel coordinates. In this =
+coordinate=20
+system, the image is treated as a grid of discrete elements, ordered =
+from top to=20
+bottom and left to right. For example:</FONT></P>
+<P align=3D"center"><FONT face=3D"Arial" size=3D"2"><IMG width=3D"154" =
+height=3D"138" =
+src=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/images=
+/matlab6.jpg"></FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">For pixel coordinates, the first =
+component=20
+</FONT><FONT face=3D"Arial" size=3D"1">r </FONT><FONT face=3D"Arial" =
+size=3D"2">(the=20
+row) increases downward, while the second component </FONT><FONT =
+face=3D"Arial"=20
+size=3D"1">c </FONT><FONT face=3D"Arial" size=3D"2">(the column) =
+increases to the=20
+right. Pixel coordinates are integer values and range between 1 and the =
+length
+ of the row or column. </FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">There is a one-to-one correspondence =
+between=20
+pixel coordinates and the coordinates MATLAB uses for matrix =
+subscripting. This=20
+correspondence makes the relationship between an image=92s data matrix =
+and the way
+ the image displays easy to understand. For example, the data for the =
+pixel in=20
+the fifth row, second column is stored in the matrix element =
+(5,2).</FONT></P>
+<P><A name=3D"Spatial Coordinates"><FONT face=3D"Arial" =
+size=3D"4">Spatial
+ Coordinates</FONT></A></P>
+<P><FONT face=3D"Arial" size=3D"2">In the pixel coordinate system, a =
+pixel is=20
+treated as a discrete unit, uniquely identified by a single coordinate =
+pair,=20
+such as (5,2). From this perspective, a location such as (5.3,2.2) is =
+not=20
+meaningful.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">At times, however, it is useful to =
+think of a=20
+pixel as a square patch, having area. From this perspective, a location =
+such as=20
+(5.3,2.2) is meaningful, and is distinct from (5,2). In this spatial =
+coordinate=20
+system, locations in an image are positions on a plane, and they are =
+described=20
+in terms of </FONT><FONT face=3D"Arial" size=3D"1">x </FONT><FONT =
+face=3D"Arial" size=3D"2">and=20
+</FONT><FONT face=3D"Arial" size=3D"1">y</FONT><FONT face=3D"Arial" =
+size=3D"2">.=20
+</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">This figure illustrates the spatial =
+coordinate=20
+system used for images. Notice that </FONT><FONT face=3D"Arial" =
+size=3D"1">y=20
+</FONT><FONT face=3D"Arial" size=3D"2">increases downward:</FONT></P>
+<P align=3D"center"><FONT face=3D"Arial" size=3D"2"><IMG width=3D"161" =
+height=3D"134" =
+src=3D"http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/images=
+/matlab7.jpg"></FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">This spatial coordinate system =
+corresponds quite=20
+closely to the pixel coordinate system in many ways. For example, the =
+spatial=20
+coordinates of the center point of any pixel are identical to the pixel=20
+coordinates for that pixel.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">There are some important differences, =
+however. In=20
+pixel coordinates, the upper-left corner of an image is (1,1), while in =
+spatial=20
+coordinates, this location by default is (0.5,0.5). This difference is =
+due to=20
+the pixel coordinate system being discrete, while the spatial coordinate =
+system=20
+is continuous. Also, the upper-left corner is always (1,1) in pixel =
+coordinates,=20
+but you can specify a nondefault origin for the spatial coordinate =
+system. See=20
+"Using a Non default Spatial Coordinate System" on page 1-19 for more
+ information.</FONT></P>
+<P><FONT face=3D"Arial" size=3D"2">Another potentially confusing =
+difference is=20
+largely a matter of convention: the order of the horizontal and vertical =
+
+components is reversed in the notation for these two systems. Pixel =
+coordinates=20
+are expressed as (</FONT><FONT face=3D"Arial" size=3D"1">r</FONT><FONT =
+face=3D"Arial"=20
+size=3D"2">,</FONT><FONT face=3D"Arial" size=3D"1">c</FONT><FONT =
+face=3D"Arial"=20
+size=3D"2">), while spatial coordinates are expressed as (</FONT><FONT =
+face=3D"Arial"=20
+size=3D"1">x</FONT><FONT face=3D"Arial" size=3D"2">,</FONT><FONT =
+face=3D"Arial"=20
+size=3D"1">y</FONT><FONT face=3D"Arial" size=3D"2">). =
+</FONT></P>&nbsp;</BODY></HTML>
+
+------=_NextPart_000_0000_01CECDA1.577D6EF0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/images/matlab2.jpg
+
+/9j/4AAQSkZJRgABAAEAGgAUAAD//gAfTEVBRCBUZWNobm9sb2dpZXMgSW5jLiBWMS4wMQD/2wCE
+ABUODxIPDRUSERIXFhUZHzQiHx0dH0AuMCY0TENQT0tDSUhUX3lmVFlyW0hJaY9qcn2Bh4mHUWWV
+n5OEnnmFh4IBFhcXHxsfPiIiPoJXSVeCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKC
+goKCgoKCgoKCgoKCgoKCgv/EAaIAAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKCwEAAwEBAQEB
+AQEBAQAAAAAAAAECAwQFBgcICQoLEAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEU
+MoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2Rl
+ZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK
+0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+foRAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYS
+QVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNU
+VVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5
+usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/AABEIAOABigMBEQACEQEDEQH/
+2gAMAwEAAhEDEQA/AOxoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
+AKACgAoAKACgAoAKACgAoAzrvX9Lsn2T3sYfJBVcuQR1B25x+NAFNfFUDqGXTtSYEZBEAORjPr6E
+GgByeJUkQPHpWqujDIZbfIP60AIni3TRI8dyLi0dMZWeIgn8Bn9fWgDXt7mC6QvbzRzIDgtGwYA+
+nFAEtABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFA
+BQAUAFABQAUAFABQAUAFABQAUAFAGLqPia2tLg2lrFJe3YJHlRDoR1BP0z0B6c4oAh/sfUtVKPrN
+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
+AoAKACgAoAKACgAoAKACgAoAKAP/2Q==
+
+------=_NextPart_000_0000_01CECDA1.577D6EF0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/images/matlab3.jpg
+
+/9j/4AAQSkZJRgABAAAAFAAPAAD//gAfTEVBRCBUZWNobm9sb2dpZXMgSW5jLiBWMS4wMQD/2wCE
+ABUODxIPDRUSERIXFhUZHzQiHx0dH0AuMCY0TENQT0tDSUhUX3lmVFlyW0hJaY9qcn2Bh4mHUWWV
+n5OEnnmFh4IBFhcXHxsfPiIiPoJXSVeCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKC
+goKCgoKCgoKCgoKCgoKCgv/EAaIAAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKCwEAAwEBAQEB
+AQEBAQAAAAAAAAECAwQFBgcICQoLEAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEU
+MoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2Rl
+ZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK
+0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+foRAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYS
+QVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNU
+VVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5
+usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/AABEIANkBHgMBEQACEQEDEQH/
+2gAMAwEAAhEDEQA/AOxoAKACgAoAKACgCrNqNlBKYpLqESj/AJZ7wXPoAvUk+negCNtSBUtDZ3kw
+UZbEWzH/AH3tz+GaAGpdX0+fLgtkUnAZ5ySOM/dC4JA7Bsds96AIftF45wb22Ee8o7JAQVGDyMuQ
+OnGR+B7gEZW6aGTff3WfKLlPkG3AHysQgI69iD6UAXF0y3ZQRJd8jP8Ax+S//FUAV7jTrFJtv2G2
+Y4UgvEGaQlsHJPJPv75NAEk1rY2QWa2t7SGbJVHEarg4PfsPWgCxJM2Z1EiqVZQCeMZx9aQCQSPL
+MhDvt8oOysB36duvBpgWJWZYnZV3MASB6mgCK2mL7tzhlGMN0zkdP8+tICvJeSZk8plcB9uMgH+L
+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
+
+------=_NextPart_000_0000_01CECDA1.577D6EF0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/images/matlab4.jpg
+
+/9j/4AAQSkZJRgABAAAAFAAPAAD//gAfTEVBRCBUZWNobm9sb2dpZXMgSW5jLiBWMS4wMQD/2wCE
+ABUODxIPDRUSERIXFhUZHzQiHx0dH0AuMCY0TENQT0tDSUhUX3lmVFlyW0hJaY9qcn2Bh4mHUWWV
+n5OEnnmFh4IBFhcXHxsfPiIiPoJXSVeCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKC
+goKCgoKCgoKCgoKCgoKCgv/EAaIAAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKCwEAAwEBAQEB
+AQEBAQAAAAAAAAECAwQFBgcICQoLEAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEU
+MoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2Rl
+ZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK
+0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+foRAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYS
+QVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNU
+VVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5
+usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/AABEIAJIBOgMBEQACEQEDEQH/
+2gAMAwEAAhEDEQA/AOxoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAo
+AKACgAoAKACgCrLqFujGNH86XOPKi+Zs+4HTnjJwBnkikmmVKEopNrcrXF3fqDiKCACNpQXYyNtX
+GQVGADz2Yjj8aZJN9kun+aTUplY9RDGir+AYMf1NAEIinM/l/wBo3eCxUNiLqBnps+v5UASSvqNr
+E8zNa3CopJQI0XTnOctn6Y/GgB0WpwtKYpkktpNwQLMAAxIGAGBKknPTOfagC7QAUAFABQAUAFAB
+QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAEMt1DCwR5BvIyEHLEeyjk
+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
+
+------=_NextPart_000_0000_01CECDA1.577D6EF0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/images/matlab5.jpg
+
+/9j/4AAQSkZJRgABAAAAFAAPAAD//gAfTEVBRCBUZWNobm9sb2dpZXMgSW5jLiBWMS4wMQD/2wCE
+ABUODxIPDRUSERIXFhUZHzQiHx0dH0AuMCY0TENQT0tDSUhUX3lmVFlyW0hJaY9qcn2Bh4mHUWWV
+n5OEnnmFh4IBFhcXHxsfPiIiPoJXSVeCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKC
+goKCgoKCgoKCgoKCgoKCgv/EAaIAAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKCwEAAwEBAQEB
+AQEBAQAAAAAAAAECAwQFBgcICQoLEAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEU
+MoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2Rl
+ZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK
+0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+foRAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYS
+QVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNU
+VVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5
+usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/AABEIAREBJwMBEQACEQEDEQH/
+2gAMAwEAAhEDEQA/AOxoAKACgAoAKACgAoAKACgAoAKAIri5gtUD3E0cKE4DSMFGfTmgCsmqwzjN
+nFPdckZjTCnBwSGbCnn0JoAhu7vV1C/ZtNjbefvecGKDI6qdoJxngNjPegCLzdWk4liuEX1gihVv
+zaRhj8PxoAQQzs5eeDWJiQAP9IjjA69kdR370AL9ltj97w67t3Z1hZj7kl8k+5oAswzvbxCKHR7i
+ONeioYQB+AegB/224/6Bd3/31F/8XQAfbbj/AKBd3/31F/8AF0AH224/6Bd3/wB9Rf8AxdAB9tuP
++gXd/wDfUX/xdAB9tuP+gXd/99Rf/F0AVpo4biUyzeH3kkbqzpASfxL0AM+zxrxFpF9Av92CdIlP
+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
+ACgAoAKACgAoAKAA/9k=
+
+------=_NextPart_000_0000_01CECDA1.577D6EF0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/images/matlab6.jpg
+
+/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsK
+CwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCACKAJoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9UScG
+jNB60lAC5ozSUUALmjNJRQAuaQkk9sUVFJiKRpSSdqfcXk0ASBw+dpBIpQxI56+1c34a8Y6d4ivL
+y3s45FeAlZGZcAGuhgUJCoDbwP4vWgCTNGaSigBc0ZpKKAAtgZ6Y9ageYyLhZFAY7RkHr+dPuGkW
+FjEqs+OjnArlPGHiK80KPRpFhictcYuPm+WOPafmJ9M4oA6yCXzVLBlZegxnr3qTNcV8JvEt34o8
+LNd3sKwT/aJlEYOTtDkKfoRzXaUALmjNJRQAp60lKetJQAUUUjMEUsTgDvQAtFRG6jCRsSQJDhQR
+zmnCUNM0WG3KASSpwfxoAfTXYIc4yx4FOxTZA2U2jPPPsKAPMfhDYXNjq/ieS5jKJLPlc9xk16dG
+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
+
+------=_NextPart_000_0000_01CECDA1.577D6EF0
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.ece.ucsb.edu/Faculty/Manjunath/courses/ece178W03/images/matlab7.jpg
+
+/9j/4AAQSkZJRgABAAAAFAAPAAD//gAfTEVBRCBUZWNobm9sb2dpZXMgSW5jLiBWMS4wMQD/2wCE
+ABUODxIPDRUSERIXFhUZHzQiHx0dH0AuMCY0TENQT0tDSUhUX3lmVFlyW0hJaY9qcn2Bh4mHUWWV
+n5OEnnmFh4IBFhcXHxsfPiIiPoJXSVeCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKC
+goKCgoKCgoKCgoKCgoKCgv/EAaIAAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKCwEAAwEBAQEB
+AQEBAQAAAAAAAAECAwQFBgcICQoLEAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEU
+MoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2Rl
+ZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK
+0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+foRAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYS
+QVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNU
+VVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5
+usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/AABEIAIYAoQMBEQACEQEDEQH/
+2gAMAwEAAhEDEQA/AOxoAKAGeagk8vcN3pQAGRRIE53EZ4B/n2oAcSACScAdTQAisHUMpypGQfWg
+ALqrKpYAt0HrQAjSKjKpzlumATQA+gBgkRnKBvmHagBzEKpYnAAyaAEV1ddysCORn6daABHEihlz
+g+qkH9aAEaRFcKWwT0oAfQAxJEkztbOKABJFcsFz8pwcggf/AF6AIdQdo7GZ0eRHCEq0ab2B7YHe
+gCloFxfTxTHUd6zhh+7MYVVGOoPfPf0oA1qACgAoAaGVs7SDg4OD0oAhEUbXBZZASr72UHkNt28/
+hQAy323kdteKSAyK4BUA8qev/fXSgC0RkECgCKzaNrOBon3xmNSrYxkY4OKAHSR75I2zjYScY68E
+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
+
+------=_NextPart_000_0000_01CECDA1.577D6EF0--
